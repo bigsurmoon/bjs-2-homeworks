@@ -6,5 +6,5 @@ function advancedFilter(arr) {
   return arr
     .filter((number) => number > 0)
     .filter((number) => number % 3 === 0)
-    .map((number) => number * 10); // array
+    .map((number) => number * 10);
 }
